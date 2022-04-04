@@ -19,6 +19,6 @@ def get_products():
 
 if __name__ == "__main__":
     print("starting python Flask")
-    app.run(port=5000)
+    app.run(debug=True)
 
 #to run the flask app: python3 server.py
